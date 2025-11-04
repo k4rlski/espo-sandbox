@@ -26,11 +26,11 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-# Production database credentials (UPDATE THESE!)
+# Production database credentials (from espo-clone-local.py)
 PROD_HOST="permtrak.com"
-PROD_USER="permtrak2_prod"  # UPDATE THIS
-PROD_PASS="PROD_PASSWORD_HERE"  # UPDATE THIS
-PROD_DB="permtrak2_prod"  # UPDATE THIS
+PROD_USER="permtrak2_prod"
+PROD_PASS="xX-6x8-Wcx6y8-9hjJFe44VhA-Xx"
+PROD_DB="permtrak2_prod"
 
 # Output file
 OUTPUT_FILE="/tmp/prod-data-compatibility-report-$(date +%Y%m%d-%H%M%S).txt"
