@@ -1,0 +1,61 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "printtime"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "permcaseid"
+                }
+            ],
+            [
+                {
+                    "name": "httpstatus"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "adurl"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "folderpath"
+                }
+            ],
+            [
+                {
+                    "name": "previewurl"
+                }
+            ],
+            [
+                {
+                    "name": "filename"
+                }
+            ],
+            [
+                {
+                    "name": "errormessage"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#ff0202",
+    "iconClass": "fas fa-ad",
+    "kanbanViewMode": false,
+    "relationshipPanels": {
+        "news": {
+            "layout": null
+        },
+        "swa": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "transactions": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "trx": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "communications": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

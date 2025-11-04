@@ -1,0 +1,87 @@
+[
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "date",
+        "label": "Date"
+    },
+    {
+        "name": "datepwdexpire"
+    },
+    {
+        "name": "datepwddeadline"
+    },
+    {
+        "name": "statpermcase",
+        "notSortable": true
+    },
+    {
+        "name": "statquote",
+        "notSortable": true
+    },
+    {
+        "name": "casenumber"
+    },
+    {
+        "name": "adsapproveddate",
+        "label": "Date Case Activated"
+    },
+    {
+        "name": "name",
+        "width": 15,
+        "link": true,
+        "align": "left",
+        "label": "Company"
+    },
+    {
+        "name": "jobtitle",
+        "width": 15,
+        "align": "left",
+        "label": "Job Title"
+    },
+    {
+        "name": "beneficiarylast",
+        "label": "Client Last"
+    },
+    {
+        "name": "cocity",
+        "label": "City"
+    },
+    {
+        "name": "jobsitecity",
+        "width": 10,
+        "align": "left",
+        "label": "Jobsite City"
+    },
+    {
+        "name": "attyname",
+        "width": 10,
+        "align": "left",
+        "label": "Attorney Name"
+    },
+    {
+        "name": "news",
+        "align": "left",
+        "label": "News"
+    },
+    {
+        "name": "local",
+        "label": "Local"
+    },
+    {
+        "name": "radio",
+        "label": "Radio"
+    },
+    {
+        "name": "swa",
+        "label": "SWA"
+    },
+    {
+        "name": "online",
+        "label": "Online"
+    },
+    {
+        "name": "transactions"
+    }
+]

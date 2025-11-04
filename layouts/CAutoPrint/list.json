@@ -1,0 +1,30 @@
+[
+    {
+        "name": "printtime"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "httpstatus"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "adurl"
+    },
+    {
+        "name": "folderpath"
+    },
+    {
+        "name": "filename"
+    },
+    {
+        "name": "previewurl"
+    },
+    {
+        "name": "errormessage"
+    }
+]

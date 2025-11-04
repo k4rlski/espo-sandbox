@@ -1,0 +1,37 @@
+[
+    {
+        "name": "trxnumber"
+    },
+    {
+        "name": "date"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "trxstring"
+    },
+    {
+        "name": "category",
+        "notSortable": true
+    },
+    {
+        "name": "subcategory",
+        "notSortable": true
+    },
+    {
+        "name": "amount"
+    },
+    {
+        "name": "balancerunning"
+    },
+    {
+        "name": "description",
+        "width": 40,
+        "align": "left"
+    },
+    {
+        "name": "perm"
+    }
+]

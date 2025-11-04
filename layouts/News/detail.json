@@ -1,0 +1,116 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "shortname"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "verifycontacts"
+                },
+                {
+                    "name": "dateverified"
+                }
+            ],
+            [
+                {
+                    "name": "preferredvendor"
+                },
+                {
+                    "name": "msa"
+                }
+            ],
+            [
+                {
+                    "name": "rank"
+                },
+                {
+                    "name": "circulation"
+                }
+            ],
+            [
+                {
+                    "name": "owner"
+                },
+                {
+                    "name": "contactname"
+                }
+            ],
+            [
+                {
+                    "name": "phone"
+                },
+                {
+                    "name": "email"
+                }
+            ],
+            [
+                {
+                    "name": "phonemain"
+                },
+                {
+                    "name": "emailmain"
+                }
+            ],
+            [
+                {
+                    "name": "city"
+                },
+                {
+                    "name": "state"
+                }
+            ],
+            [
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "zipToMedia"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "weburl"
+                }
+            ],
+            [
+                {
+                    "name": "emailformatquote"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "charsperline"
+                },
+                {
+                    "name": "costperline"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "QUICK QUOTE"
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "radioformat"
+                }
+            ],
+            [
+                {
+                    "name": "owner"
+                },
+                {
+                    "name": "contactname"
+                }
+            ],
+            [
+                {
+                    "name": "phone"
+                },
+                {
+                    "name": "email"
+                }
+            ],
+            [
+                {
+                    "name": "city"
+                },
+                {
+                    "name": "state"
+                }
+            ],
+            [
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "zipToMedia"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cityoflicense"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "cost30"
+                },
+                {
+                    "name": "cost60"
+                }
+            ],
+            [
+                {
+                    "name": "frequency"
+                },
+                {
+                    "name": "streetaddress"
+                }
+            ],
+            [
+                {
+                    "name": "zip"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Overflow \/ Holding"
+    }
+]

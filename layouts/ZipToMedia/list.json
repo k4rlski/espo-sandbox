@@ -1,0 +1,45 @@
+[
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "city"
+    },
+    {
+        "name": "county"
+    },
+    {
+        "name": "stateabbreviated"
+    },
+    {
+        "name": "state"
+    },
+    {
+        "name": "csaname"
+    },
+    {
+        "name": "news"
+    },
+    {
+        "name": "local"
+    },
+    {
+        "name": "radio"
+    },
+    {
+        "name": "swa"
+    },
+    {
+        "name": "online"
+    },
+    {
+        "name": "cbsametro"
+    },
+    {
+        "name": "description"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "allowquantity"
+                },
+                {
+                    "name": "collectshipping"
+                }
+            ],
+            [
+                {
+                    "name": "collecttax"
+                },
+                {
+                    "name": "conversionrate"
+                }
+            ],
+            [
+                {
+                    "name": "datecreated"
+                },
+                {
+                    "name": "dateexpires"
+                }
+            ],
+            [
+                {
+                    "name": "dateupdated"
+                },
+                {
+                    "name": "lastused"
+                }
+            ],
+            [
+                {
+                    "name": "linkstatus"
+                },
+                {
+                    "name": "linkurl"
+                }
+            ],
+            [
+                {
+                    "name": "paymentmethods"
+                },
+                {
+                    "name": "productname"
+                }
+            ],
+            [
+                {
+                    "name": "totalclicks"
+                },
+                {
+                    "name": "totalconversions"
+                }
+            ],
+            [
+                {
+                    "name": "stripelinkid"
+                },
+                {
+                    "name": "totalrevenue"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "metadata"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    "status",
+    "name",
+    "printtime",
+    "filename",
+    "folderpath",
+    "httpstatus",
+    "previewurl",
+    "errormessage",
+    "adurl"
+]

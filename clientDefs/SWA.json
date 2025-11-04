@@ -1,0 +1,15 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#996600",
+    "kanbanViewMode": false,
+    "iconClass": null,
+    "relationshipPanels": {
+        "perm": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

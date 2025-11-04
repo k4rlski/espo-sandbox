@@ -1,0 +1,35 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "city",
+        "label": "City"
+    },
+    {
+        "name": "state",
+        "label": "State"
+    },
+    {
+        "name": "circulation",
+        "label": "Circulation"
+    },
+    {
+        "name": "email",
+        "label": "Email"
+    },
+    {
+        "name": "phone",
+        "label": "Phone"
+    },
+    {
+        "name": "owner",
+        "label": "Owner"
+    },
+    {
+        "name": "website",
+        "label": "Website"
+    }
+]

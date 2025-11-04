@@ -1,0 +1,39 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "frequency"
+    },
+    {
+        "name": "state",
+        "label": "State"
+    },
+    {
+        "name": "city",
+        "label": "City"
+    },
+    {
+        "name": "cityoflicense"
+    },
+    {
+        "name": "radioformat",
+        "label": "Format"
+    },
+    {
+        "name": "website",
+        "label": "Website"
+    },
+    {
+        "name": "email"
+    },
+    {
+        "name": "phone"
+    },
+    {
+        "name": "owner",
+        "label": "Owner"
+    }
+]

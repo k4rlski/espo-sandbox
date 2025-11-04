@@ -1,0 +1,261 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "uirequired"
+                }
+            ],
+            [
+                {
+                    "name": "systemtype"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "swashortname"
+                },
+                {
+                    "name": "swaagencyname"
+                }
+            ],
+            [
+                {
+                    "name": "swastate"
+                },
+                {
+                    "name": "swastateabbreviated"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "swaagencyaddress"
+                },
+                {
+                    "name": "swaagencycity"
+                }
+            ],
+            [
+                {
+                    "name": "swaagencystate"
+                },
+                {
+                    "name": "swaagencyzip"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Agency Address Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "swaagencyhomepage"
+                },
+                {
+                    "name": "swaregistrationpage"
+                }
+            ],
+            [
+                {
+                    "name": "swaloginpage"
+                },
+                {
+                    "name": "swacontactpage"
+                }
+            ],
+            [
+                {
+                    "name": "swafaqpage"
+                },
+                {
+                    "name": "swadirectorypage"
+                }
+            ],
+            [
+                {
+                    "name": "swahelppage"
+                },
+                {
+                    "name": "swahelpform"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "SWA Site Links"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "swahelpdeskemail"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "swaphonemain"
+                },
+                {
+                    "name": "swaphonealternate"
+                }
+            ],
+            [
+                {
+                    "name": "swarepname1"
+                },
+                {
+                    "name": "swarepemail1"
+                }
+            ],
+            [
+                {
+                    "name": "swarepphone1"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "swarepname2"
+                },
+                {
+                    "name": "swarepemail2"
+                }
+            ],
+            [
+                {
+                    "name": "swarepphone2"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "SWA Rep Contact Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "swaerroraccount"
+                }
+            ],
+            [
+                {
+                    "name": "swaerrorverification"
+                }
+            ],
+            [
+                {
+                    "name": "swaerrorlocked"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Known SWA Errors"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "googledocaccount"
+                },
+                {
+                    "name": "googledocregistration"
+                }
+            ],
+            [
+                {
+                    "name": "googledocverification"
+                },
+                {
+                    "name": "googledocjobhold"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Google Documents: Existing Solutions"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "permhowtolink"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Notes"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "swarepteamcc"
+                }
+            ],
+            [
+                {
+                    "name": "swauiabbr"
+                },
+                {
+                    "name": "swauifull"
+                }
+            ],
+            [
+                {
+                    "name": "swauiinfolink"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "warning",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "SWA Info"
+    }
+]

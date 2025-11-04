@@ -1,0 +1,136 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "cLawfirmname"
+                }
+            ],
+            [
+                {
+                    "name": "accountName"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "title"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "addressCity"
+                }
+            ],
+            [
+                {
+                    "name": "addressState"
+                },
+                {
+                    "name": "addressPostalCode"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "source"
+                }
+            ],
+            [
+                {
+                    "name": "opportunityAmount"
+                },
+                {
+                    "name": "campaign"
+                }
+            ],
+            [
+                {
+                    "name": "industry"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Details"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cLinkedinurl"
+                },
+                {
+                    "name": "cLinkedinlawfirmurl"
+                }
+            ],
+            [
+                {
+                    "name": "cStatliconnect"
+                },
+                {
+                    "name": "cDatelinconsent"
+                }
+            ],
+            [
+                {
+                    "name": "addressMap"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "LinkedIn Marketing \/ Sales"
+    },
+    {
+        "rows": [
+            [
+                false,
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Facebook Marketing"
+    }
+]

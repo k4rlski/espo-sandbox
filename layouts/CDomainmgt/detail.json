@@ -1,0 +1,183 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "statdomain"
+                }
+            ],
+            [
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "domaintype"
+                }
+            ],
+            [
+                {
+                    "name": "urlregistrar"
+                },
+                {
+                    "name": "domaincategory"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "registrar"
+                },
+                {
+                    "name": "domainurl"
+                }
+            ],
+            [
+                {
+                    "name": "dateregistered"
+                },
+                {
+                    "name": "dateexpires"
+                }
+            ],
+            [
+                {
+                    "name": "nameserver1"
+                },
+                {
+                    "name": "nameserver2"
+                }
+            ],
+            [
+                {
+                    "name": "statautorenew"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "urlwhm"
+                },
+                {
+                    "name": "urlcpacct"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "danger",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Registration \/ Technical Info"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cpanelserver"
+                },
+                {
+                    "name": "statcpanel"
+                }
+            ],
+            [
+                {
+                    "name": "cpanelacct"
+                },
+                {
+                    "name": "cpanelpass"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Hosting"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "statssl"
+                },
+                {
+                    "name": "sslexpiration"
+                }
+            ],
+            [
+                {
+                    "name": "sslinfo"
+                },
+                {
+                    "name": "sslprovider"
+                }
+            ],
+            [
+                {
+                    "name": "statcdn"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "warning",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "SSL & CDN Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "info",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Internal Notes & Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "purpose"
+                },
+                {
+                    "name": "statorg"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Remove"
+    }
+]

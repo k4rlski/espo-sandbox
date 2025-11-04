@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "width": 25,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "gaapcat"
+    },
+    {
+        "name": "gaapsubcat"
+    },
+    {
+        "name": "gaapcodex"
+    },
+    {
+        "name": "description",
+        "width": 25,
+        "align": "left"
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "amountdue"
+    },
+    {
+        "name": "amountpaid"
+    },
+    {
+        "name": "billingemail"
+    },
+    {
+        "name": "billingname"
+    },
+    {
+        "name": "customername"
+    },
+    {
+        "name": "customeremail"
+    },
+    {
+        "name": "customerid"
+    },
+    {
+        "name": "datedue"
+    },
+    {
+        "name": "datesent"
+    },
+    {
+        "name": "datepaid"
+    },
+    {
+        "name": "statinvoice"
+    },
+    {
+        "name": "invoicenumber"
+    },
+    {
+        "name": "invoiceurl"
+    }
+]

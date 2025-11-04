@@ -1,0 +1,43 @@
+{
+    "fields": {
+        "cLinkedinurl": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "cLawfirmname": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "cLinkedinlawfirmurl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "cStatliconnect": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "default": [],
+            "options": [
+                "NA",
+                "Send",
+                "Sent",
+                "Connected"
+            ],
+            "style": {
+                "NA": null,
+                "Send": "warning",
+                "Sent": "primary",
+                "Connected": "success"
+            },
+            "isCustom": true
+        },
+        "cDatelinconsent": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        }
+    }
+}

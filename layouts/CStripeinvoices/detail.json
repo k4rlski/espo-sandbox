@@ -1,0 +1,137 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "datedue"
+                }
+            ],
+            [
+                {
+                    "name": "datecreated"
+                },
+                {
+                    "name": "datefinalized"
+                }
+            ],
+            [
+                {
+                    "name": "datesent"
+                },
+                {
+                    "name": "datepaid"
+                }
+            ],
+            [
+                {
+                    "name": "amountdue"
+                },
+                {
+                    "name": "amountpaid"
+                }
+            ],
+            [
+                {
+                    "name": "amountremaining"
+                },
+                {
+                    "name": "attemptcount"
+                }
+            ],
+            [
+                {
+                    "name": "autoadvance"
+                },
+                {
+                    "name": "subtotal"
+                }
+            ],
+            [
+                {
+                    "name": "billingname"
+                },
+                {
+                    "name": "billingemail"
+                }
+            ],
+            [
+                {
+                    "name": "customername"
+                },
+                {
+                    "name": "customeremail"
+                }
+            ],
+            [
+                {
+                    "name": "customerid"
+                },
+                {
+                    "name": "invoicenumber"
+                }
+            ],
+            [
+                {
+                    "name": "statinvoice"
+                },
+                {
+                    "name": "stripeinvoiceid"
+                }
+            ],
+            [
+                {
+                    "name": "pdfurl"
+                }
+            ],
+            [
+                {
+                    "name": "invoiceurl"
+                }
+            ],
+            [
+                {
+                    "name": "receipturl"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "paymethod"
+                },
+                {
+                    "name": "taxamount"
+                }
+            ],
+            [
+                {
+                    "name": "subscriptionid"
+                },
+                {
+                    "name": "relatedchargeid"
+                }
+            ],
+            [
+                {
+                    "name": "last4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "noteStyle": "info",
+        "label": ""
+    }
+]

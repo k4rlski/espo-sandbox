@@ -1,0 +1,30 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "scriptname"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "starttime"
+    },
+    {
+        "name": "endtime"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "createdBy"
+    },
+    {
+        "name": "summary"
+    },
+    {
+        "name": "logcontent"
+    }
+]

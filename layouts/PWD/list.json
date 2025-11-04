@@ -1,0 +1,60 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "visaclass"
+    },
+    {
+        "name": "datereceived"
+    },
+    {
+        "name": "datedetermination"
+    },
+    {
+        "name": "datepwdwageexpiration"
+    },
+    {
+        "name": "jobtitle"
+    },
+    {
+        "name": "employerlegalbusinessname"
+    },
+    {
+        "name": "employercity"
+    },
+    {
+        "name": "employerstate"
+    },
+    {
+        "name": "agentattorneyfirstname"
+    },
+    {
+        "name": "agentattorneylastname"
+    },
+    {
+        "name": "agentattorneystate"
+    },
+    {
+        "name": "requirededucationmajor"
+    },
+    {
+        "name": "empsoccodes"
+    },
+    {
+        "name": "blsarea"
+    },
+    {
+        "name": "primaryworksitestate"
+    },
+    {
+        "name": "requiredexperience"
+    },
+    {
+        "name": "requiredexperiencemonths"
+    },
+    {
+        "name": "pwdwagerate"
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "scriptname"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "starttime"
+                },
+                {
+                    "name": "endtime"
+                }
+            ],
+            [
+                {
+                    "name": "logcontent"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "summary"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

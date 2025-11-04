@@ -1,0 +1,48 @@
+[
+    {
+        "name": "datetrx"
+    },
+    {
+        "name": "stattrx"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "stripechargeid"
+    },
+    {
+        "name": "stripeinvoiceid"
+    },
+    {
+        "name": "amount"
+    },
+    {
+        "name": "currency"
+    },
+    {
+        "name": "customeremail"
+    },
+    {
+        "name": "customerid"
+    },
+    {
+        "name": "declinecode"
+    },
+    {
+        "name": "daterefund"
+    },
+    {
+        "name": "last4digits"
+    },
+    {
+        "name": "paymethod"
+    },
+    {
+        "name": "receipturl"
+    },
+    {
+        "name": "description"
+    }
+]

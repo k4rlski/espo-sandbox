@@ -1,0 +1,15 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#17ff27",
+    "iconClass": "fas fa-dollar-sign",
+    "kanbanViewMode": false,
+    "relationshipPanels": {
+        "acctCode": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

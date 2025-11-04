@@ -1,0 +1,26 @@
+[
+    {
+        "name": "date"
+    },
+    {
+        "name": "trxnumber"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "amount"
+    },
+    {
+        "name": "category",
+        "notSortable": true
+    },
+    {
+        "name": "subcategory",
+        "notSortable": true
+    },
+    {
+        "name": "description"
+    }
+]

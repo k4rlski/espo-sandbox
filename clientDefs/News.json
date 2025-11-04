@@ -1,0 +1,14 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": "#800000",
+    "iconClass": "fas fa-book",
+    "relationshipPanels": {
+        "perm": {
+            "layout": null
+        }
+    }
+}

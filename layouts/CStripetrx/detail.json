@@ -1,0 +1,70 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "currency"
+                },
+                {
+                    "name": "customeremail"
+                }
+            ],
+            [
+                {
+                    "name": "customerid"
+                },
+                {
+                    "name": "last4digits"
+                }
+            ],
+            [
+                {
+                    "name": "daterefund"
+                },
+                {
+                    "name": "datetrx"
+                }
+            ],
+            [
+                {
+                    "name": "declinecode"
+                },
+                {
+                    "name": "paymethod"
+                }
+            ],
+            [
+                {
+                    "name": "receipturl"
+                },
+                {
+                    "name": "stattrx"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "stripechargeid"
+                },
+                {
+                    "name": "stripeinvoiceid"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

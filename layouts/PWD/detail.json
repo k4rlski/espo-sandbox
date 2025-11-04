@@ -1,0 +1,705 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "statcase"
+                }
+            ],
+            [
+                {
+                    "name": "createdat"
+                },
+                {
+                    "name": "datereceived"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "visaclass"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "A. Employment-Based Visa Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "employerpoclastname"
+                },
+                {
+                    "name": "employerpocfirstname"
+                },
+                {
+                    "name": "employerpocmiddlename"
+                }
+            ],
+            [
+                {
+                    "name": "employerpocjobtitle"
+                }
+            ],
+            [
+                {
+                    "name": "employerpocaddress1"
+                }
+            ],
+            [
+                {
+                    "name": "employerpocaddress2"
+                }
+            ],
+            [
+                {
+                    "name": "employerpoccity"
+                },
+                {
+                    "name": "employerpocstate"
+                },
+                {
+                    "name": "employerpocpostalcode"
+                }
+            ],
+            [
+                {
+                    "name": "employerpoccountry"
+                },
+                {
+                    "name": "employerpocprovince"
+                }
+            ],
+            [
+                {
+                    "name": "employerpocphone"
+                },
+                {
+                    "name": "employerpocphoneext"
+                },
+                {
+                    "name": "employerpocemail"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "B. Employer Point-of-Contact Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "employerlegalbusinessname"
+                }
+            ],
+            [
+                {
+                    "name": "tradenamedba"
+                }
+            ],
+            [
+                {
+                    "name": "employeraddress1"
+                }
+            ],
+            [
+                {
+                    "name": "employeraddress2"
+                }
+            ],
+            [
+                {
+                    "name": "employercity"
+                },
+                {
+                    "name": "employerstate"
+                },
+                {
+                    "name": "employerpostalcode"
+                }
+            ],
+            [
+                {
+                    "name": "employercountry"
+                },
+                {
+                    "name": "employerprovince"
+                }
+            ],
+            [
+                {
+                    "name": "employerphone"
+                },
+                {
+                    "name": "employerextension"
+                }
+            ],
+            [
+                {
+                    "name": "employerfein"
+                },
+                {
+                    "name": "naicscode"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "C. Employer Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "typeofrep"
+                }
+            ],
+            [
+                {
+                    "name": "agentattorneylastname"
+                },
+                {
+                    "name": "agentattorneyfirstname"
+                },
+                {
+                    "name": "agentattorneymiddlename"
+                }
+            ],
+            [
+                {
+                    "name": "agentattorneyaddress1"
+                }
+            ],
+            [
+                {
+                    "name": "agentattorneyaddress2"
+                }
+            ],
+            [
+                {
+                    "name": "agentattorneycity"
+                },
+                {
+                    "name": "agentattorneystate"
+                },
+                {
+                    "name": "agentattorneypostalcode"
+                }
+            ],
+            [
+                {
+                    "name": "agentattorneycountry"
+                },
+                {
+                    "name": "agentattorneyprovince"
+                }
+            ],
+            [
+                {
+                    "name": "agentattorneyphone"
+                },
+                {
+                    "name": "agentattorneyphoneext"
+                },
+                {
+                    "name": "agentattorneyemailaddress"
+                }
+            ],
+            [
+                {
+                    "name": "lawfirmnamebusinessname"
+                },
+                {
+                    "name": "lawfirmfein"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "D. Attorney or Agent Information (if applicable)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coveredbyacwia"
+                }
+            ],
+            [
+                {
+                    "name": "acwiainsthighereducation"
+                }
+            ],
+            [
+                {
+                    "name": "acwiaaffiliatednonprofit"
+                }
+            ],
+            [
+                {
+                    "name": "acwiaresearchorg"
+                }
+            ],
+            [
+                {
+                    "name": "statacwiachanged"
+                }
+            ],
+            [
+                {
+                    "name": "profsportsleague"
+                }
+            ],
+            [
+                {
+                    "name": "cba"
+                }
+            ],
+            [
+                {
+                    "name": "wagesourcerequested"
+                }
+            ],
+            [
+                {
+                    "name": "surveyname"
+                }
+            ],
+            [
+                {
+                    "name": "datesurveypublication"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "E. Wage Source Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "jobtitle"
+                }
+            ],
+            [
+                {
+                    "name": "jobduties"
+                }
+            ],
+            [
+                {
+                    "name": "superviseOtherEmp"
+                }
+            ],
+            [
+                {
+                    "name": "empsoccodes"
+                },
+                {
+                    "name": "empsoctitles"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": "A. Job Description",
+        "hidden": false,
+        "noteText": "A. Job Description ",
+        "noteStyle": "info",
+        "customLabel": "F. Job Offer Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "requirededucationlevel"
+                }
+            ],
+            [
+                {
+                    "name": "requiredotherdegree"
+                },
+                {
+                    "name": "requirededucationmajor"
+                }
+            ],
+            [
+                {
+                    "name": "secondeducation"
+                }
+            ],
+            [
+                {
+                    "name": "secondeducationmajor"
+                }
+            ],
+            [
+                {
+                    "name": "requiredtraining"
+                }
+            ],
+            [
+                {
+                    "name": "requiredtrainingmonths"
+                },
+                {
+                    "name": "requiredtrainingname"
+                }
+            ],
+            [
+                {
+                    "name": "requiredexperience"
+                }
+            ],
+            [
+                {
+                    "name": "requiredexperiencemonths"
+                },
+                {
+                    "name": "requiredoccupation"
+                }
+            ],
+            [
+                {
+                    "name": "specialskillsrequirements"
+                }
+            ],
+            [
+                {
+                    "name": "specreqlicensecert"
+                },
+                {
+                    "name": "specreqforeignlang"
+                }
+            ],
+            [
+                {
+                    "name": "specreqresfellow"
+                },
+                {
+                    "name": "specreqother"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "b. Minimum Job Requirements"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "alternativerequirements"
+                }
+            ],
+            [
+                {
+                    "name": "alteducationlevel"
+                }
+            ],
+            [
+                {
+                    "name": "altotherdegree"
+                },
+                {
+                    "name": "alteducationmajor"
+                }
+            ],
+            [
+                {
+                    "name": "alttraining"
+                }
+            ],
+            [
+                {
+                    "name": "alttrainingmonths"
+                },
+                {
+                    "name": "alttrainingname"
+                }
+            ],
+            [
+                {
+                    "name": "altexperience"
+                }
+            ],
+            [
+                {
+                    "name": "altexperiencemonths"
+                }
+            ],
+            [
+                {
+                    "name": "altspecialskills"
+                }
+            ],
+            [
+                {
+                    "name": "altlicensecert"
+                },
+                {
+                    "name": "altforeignlanguage"
+                }
+            ],
+            [
+                {
+                    "name": "altresfellowship"
+                },
+                {
+                    "name": "altotherreq"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "c. Alternative Job Requirements"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "suggestedsoccode"
+                },
+                {
+                    "name": "suggestedsoctitle"
+                }
+            ],
+            [
+                {
+                    "name": "supervisorjobtitle"
+                }
+            ],
+            [
+                {
+                    "name": "travelrequired"
+                },
+                {
+                    "name": "traveldetails"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "d. Other Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "primaryworksiteaddress1"
+                }
+            ],
+            [
+                {
+                    "name": "primaryworksiteaddress2"
+                }
+            ],
+            [
+                {
+                    "name": "primaryworksitecity"
+                },
+                {
+                    "name": "primaryworksitestate"
+                },
+                {
+                    "name": "primaryworksitecounty"
+                },
+                {
+                    "name": "primaryworksitepostalcode"
+                }
+            ],
+            [
+                {
+                    "name": "otherworksitelocation"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "e. Place of Employment Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "casenumber"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "pwdsoccode"
+                },
+                {
+                    "name": "pwdsoctitle"
+                }
+            ],
+            [
+                {
+                    "name": "onetcode"
+                },
+                {
+                    "name": "onettitle"
+                }
+            ],
+            [
+                {
+                    "name": "onetcodecombo"
+                },
+                {
+                    "name": "onettitlecombo"
+                }
+            ],
+            [
+                {
+                    "name": "pwdwagerate"
+                }
+            ],
+            [
+                {
+                    "name": "pwdunitofpay"
+                },
+                {
+                    "name": "pwdoeswagelevel"
+                }
+            ],
+            [
+                {
+                    "name": "pwdwagesource"
+                },
+                {
+                    "name": "pwdsurveyname"
+                }
+            ],
+            [
+                {
+                    "name": "altpwdwagerate"
+                }
+            ],
+            [
+                {
+                    "name": "altpwdunitofpay"
+                },
+                {
+                    "name": "altpwdoeswagelevel"
+                }
+            ],
+            [
+                {
+                    "name": "altpwdwagesource"
+                },
+                {
+                    "name": "altpwdsurveyname"
+                }
+            ],
+            [
+                {
+                    "name": "blsarea"
+                }
+            ],
+            [
+                {
+                    "name": "h2bhighestpwd"
+                }
+            ],
+            [
+                {
+                    "name": "wagedetnotes"
+                }
+            ],
+            [
+                {
+                    "name": "dateprevailwagedeterm"
+                },
+                {
+                    "name": "datepwdwageexpiration"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "G. Prevailing Wage Determination"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "addendumjobduties"
+                }
+            ],
+            [
+                {
+                    "name": "addendumeduc"
+                },
+                {
+                    "name": "addendumsoc"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Addendum"
+    }
+]

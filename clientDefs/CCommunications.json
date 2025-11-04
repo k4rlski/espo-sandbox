@@ -1,0 +1,14 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#f6ebeb",
+    "iconClass": "fas fa-mail-bulk",
+    "relationshipPanels": {
+        "perm": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

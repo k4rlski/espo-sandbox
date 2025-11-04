@@ -1,0 +1,110 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "statran"
+                },
+                {
+                    "name": "dateran"
+                }
+            ],
+            [
+                {
+                    "name": "news"
+                },
+                {
+                    "name": "local"
+                }
+            ],
+            [
+                {
+                    "name": "radio"
+                },
+                {
+                    "name": "swa"
+                }
+            ],
+            [
+                {
+                    "name": "online"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "gmapurl"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "state"
+                },
+                {
+                    "name": "stateabbreviated"
+                }
+            ],
+            [
+                {
+                    "name": "city"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "county"
+                },
+                {
+                    "name": "population"
+                }
+            ],
+            [
+                {
+                    "name": "countynamesall"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "msaname"
+                },
+                {
+                    "name": "csaname"
+                }
+            ],
+            [
+                {
+                    "name": "cbsaname"
+                },
+                {
+                    "name": "cbsametro"
+                }
+            ],
+            [
+                {
+                    "name": "cbsafips"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

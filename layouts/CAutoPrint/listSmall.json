@@ -1,0 +1,12 @@
+[
+    {
+        "name": "printtime"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "status"
+    }
+]

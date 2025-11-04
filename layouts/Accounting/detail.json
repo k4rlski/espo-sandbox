@@ -1,0 +1,177 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "recortype"
+                },
+                {
+                    "name": "statvendor"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "acctCode"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "statdeduct"
+                },
+                {
+                    "name": "typededuct"
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "categoryvendor"
+                }
+            ],
+            [
+                {
+                    "name": "verification"
+                },
+                {
+                    "name": "datevv"
+                }
+            ],
+            [
+                {
+                    "name": "entity"
+                },
+                {
+                    "name": "expensetype"
+                }
+            ],
+            [
+                {
+                    "name": "datedue"
+                },
+                {
+                    "name": "datepaid"
+                }
+            ],
+            [
+                {
+                    "name": "datepay"
+                },
+                {
+                    "name": "card"
+                }
+            ],
+            [
+                {
+                    "name": "dboxinvoice"
+                }
+            ],
+            [
+                {
+                    "name": "credsuser"
+                },
+                {
+                    "name": "credspass"
+                }
+            ],
+            [
+                {
+                    "name": "frequency"
+                },
+                {
+                    "name": "authmobile"
+                }
+            ],
+            [
+                {
+                    "name": "vendorcontactemail"
+                },
+                {
+                    "name": "vendorcontactphone"
+                }
+            ],
+            [
+                {
+                    "name": "vendorurl"
+                }
+            ],
+            [
+                {
+                    "name": "urlvendorinvoice"
+                }
+            ],
+            [
+                {
+                    "name": "fldrvendorinvoices"
+                }
+            ],
+            [
+                {
+                    "name": "urlhowto"
+                }
+            ],
+            [
+                {
+                    "name": "acctnotes"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "addrbilling"
+                },
+                {
+                    "name": "addrstreet"
+                },
+                {
+                    "name": "addrste"
+                }
+            ],
+            [
+                {
+                    "name": "addrcity"
+                },
+                {
+                    "name": "addrstate"
+                },
+                {
+                    "name": "addrzip"
+                }
+            ],
+            [
+                {
+                    "name": "emailbilling"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Billing Address"
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "datedue",
+        "label": "Date Due"
+    },
+    {
+        "name": "datepaid",
+        "label": "Date Paid"
+    },
+    {
+        "name": "datepay",
+        "label": "Pay On"
+    },
+    {
+        "name": "card",
+        "label": "Card Used"
+    },
+    {
+        "name": "type",
+        "label": "Type"
+    },
+    {
+        "name": "acctCode"
+    },
+    {
+        "name": "expensetype",
+        "label": "Expense Type"
+    },
+    {
+        "name": "categoryvendor",
+        "label": "Vendor Category"
+    },
+    {
+        "name": "frequency",
+        "label": "Frequency"
+    },
+    {
+        "name": "vendorurl",
+        "label": "Vendor URL"
+    },
+    {
+        "name": "emailbilling"
+    },
+    {
+        "name": "addrbilling",
+        "label": "Billing Address"
+    },
+    {
+        "name": "amount",
+        "label": "Amount"
+    },
+    {
+        "name": "entity",
+        "label": "Entity"
+    },
+    {
+        "name": "status",
+        "label": "Status"
+    },
+    {
+        "name": "verification",
+        "label": "Verification"
+    },
+    {
+        "name": "statvendor",
+        "label": "Vendor Status"
+    },
+    {
+        "name": "recortype"
+    },
+    {
+        "name": "statdeduct"
+    },
+    {
+        "name": "typededuct"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "trxnumber"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "perm"
+                }
+            ],
+            [
+                {
+                    "name": "trxstring"
+                }
+            ],
+            [
+                {
+                    "name": "category"
+                },
+                {
+                    "name": "subcategory"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "amount"
+                },
+                {
+                    "name": "balancerunning"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

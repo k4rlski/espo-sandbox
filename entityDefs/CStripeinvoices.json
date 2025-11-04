@@ -1,0 +1,277 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "pattern": "$noBadCharacters",
+            "options": []
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "stripeinvoiceid": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "invoicenumber": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "statinvoice": {
+            "type": "enum",
+            "style": {
+                "draft": null,
+                "open": null,
+                "paid": null,
+                "void": null,
+                "uncollectible": null,
+                "na": null
+            },
+            "maxLength": 100,
+            "isCustom": true,
+            "options": [
+                "draft",
+                "open",
+                "paid",
+                "void",
+                "uncollectible",
+                "na"
+            ],
+            "default": "na"
+        },
+        "amountdue": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "amountpaid": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "amountremaining": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "subtotal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "taxamount": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "currency": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "datecreated": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 1,
+            "isCustom": true
+        },
+        "datedue": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 1,
+            "isCustom": true
+        },
+        "datepaid": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 1,
+            "isCustom": true
+        },
+        "datesent": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 1,
+            "isCustom": true
+        },
+        "datefinalized": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 1,
+            "isCustom": true
+        },
+        "customerid": {
+            "type": "varchar",
+            "options": [],
+            "isCustom": true
+        },
+        "customername": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "customeremail": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "billingname": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "billingemail": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        },
+        "invoiceurl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "pdfurl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "receipturl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "paymethod": {
+            "type": "enum",
+            "options": [
+                "card",
+                "ach_debit",
+                "ach_credit_transfer",
+                "sepa_debit",
+                "ideal",
+                "bancontact",
+                "giropay",
+                "sofort",
+                "other",
+                "na"
+            ],
+            "default": "na",
+            "style": {
+                "card": null,
+                "ach_debit": null,
+                "ach_credit_transfer": null,
+                "sepa_debit": null,
+                "ideal": null,
+                "bancontact": null,
+                "giropay": null,
+                "sofort": null,
+                "other": null,
+                "na": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "last4": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "attemptcount": {
+            "type": "int",
+            "isCustom": true
+        },
+        "autoadvance": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "relatedchargeid": {
+            "type": "varchar",
+            "options": [],
+            "isCustom": true
+        },
+        "subscriptionid": {
+            "type": "varchar",
+            "maxLength": 255,
+            "options": [],
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        },
+        "createdAt": {
+            "columns": [
+                "createdAt"
+            ]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": [
+                "createdAt",
+                "id"
+            ]
+        }
+    }
+}

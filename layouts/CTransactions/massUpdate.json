@@ -1,0 +1,12 @@
+[
+    "assignedUser",
+    "date",
+    "name",
+    "category",
+    "subcategory",
+    "amount",
+    "trxnumber",
+    "description",
+    "balancerunning",
+    "teams"
+]

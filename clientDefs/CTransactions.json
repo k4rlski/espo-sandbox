@@ -1,0 +1,19 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#0efce6",
+    "iconClass": "fas fa-bars",
+    "relationshipPanels": {
+        "tESTPERMs": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "perm": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "kanbanViewMode": false
+}

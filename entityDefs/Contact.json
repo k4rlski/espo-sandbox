@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "perm": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "perm": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "TESTPERM",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

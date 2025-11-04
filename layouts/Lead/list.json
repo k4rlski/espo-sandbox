@@ -1,0 +1,49 @@
+[
+    {
+        "name": "status",
+        "width": 15
+    },
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "cLawfirmname",
+        "width": 25,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "addressCity"
+    },
+    {
+        "name": "addressState"
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "notSortable": true
+    },
+    {
+        "name": "cLinkedinurl"
+    },
+    {
+        "name": "cStatliconnect",
+        "notSortable": true
+    },
+    {
+        "name": "cLinkedinlawfirmurl",
+        "width": 15,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "website"
+    },
+    {
+        "name": "createdAt",
+        "width": 13
+    }
+]

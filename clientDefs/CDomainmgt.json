@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#eeca13",
+    "iconClass": "fas fa-atlas",
+    "kanbanViewMode": false
+}

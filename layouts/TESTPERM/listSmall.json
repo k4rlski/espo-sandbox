@@ -1,0 +1,31 @@
+[
+    {
+        "name": "adnumbernews"
+    },
+    {
+        "name": "casenumber"
+    },
+    {
+        "name": "adsapproveddate"
+    },
+    {
+        "name": "pricenewsrealConverted"
+    },
+    {
+        "name": "datebuynews"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "jobtitle"
+    },
+    {
+        "name": "statpermcase",
+        "notSortable": true
+    },
+    {
+        "name": "attyname"
+    }
+]

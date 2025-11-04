@@ -1,0 +1,58 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "website"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "typeofindustry"
+                },
+                {
+                    "name": "jobmarketlocation"
+                }
+            ],
+            [
+                {
+                    "name": "contactname"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "phone"
+                },
+                {
+                    "name": "email"
+                }
+            ],
+            [
+                {
+                    "name": "city"
+                },
+                {
+                    "name": "state"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "zipToMedia"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

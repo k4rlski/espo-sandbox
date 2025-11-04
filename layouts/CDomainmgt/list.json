@@ -1,0 +1,29 @@
+[
+    {
+        "name": "dateexpires"
+    },
+    {
+        "name": "name",
+        "width": 25,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "priority"
+    },
+    {
+        "name": "statorg"
+    },
+    {
+        "name": "purpose"
+    },
+    {
+        "name": "cpanelserver"
+    },
+    {
+        "name": "cpanelacct"
+    },
+    {
+        "name": "sslprovider"
+    }
+]

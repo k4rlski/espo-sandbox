@@ -1,0 +1,37 @@
+[
+    {
+        "name": "swastateabbreviated"
+    },
+    {
+        "name": "swastate"
+    },
+    {
+        "name": "swaagencystate"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "swaagencyname"
+    },
+    {
+        "name": "systemtype"
+    },
+    {
+        "name": "website"
+    },
+    {
+        "name": "swahelpdeskemail"
+    },
+    {
+        "name": "swarepname1"
+    },
+    {
+        "name": "swarepemail1"
+    },
+    {
+        "name": "swaagencyhomepage"
+    }
+]

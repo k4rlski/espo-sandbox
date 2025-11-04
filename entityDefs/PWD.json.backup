@@ -1,0 +1,906 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "ziptomedia": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        },
+        "casenumber": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "datereceived": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datedetermination": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateredetermination": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datecenterdirectorreview": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datewithdrawal": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "employerpoclastname": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocfirstname": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocmiddlename": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocjobtitle": {
+            "type": "varchar",
+            "maxLength": 70,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocaddress1": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 8,
+            "isCustom": true
+        },
+        "employerpocaddress2": {
+            "type": "text",
+            "rows": 2,
+            "rowsMin": 2,
+            "cutHeight": 40,
+            "isCustom": true
+        },
+        "employerpoccity": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocstate": {
+            "type": "varchar",
+            "maxLength": 3,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocpostalcode": {
+            "type": "varchar",
+            "maxLength": 7,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpoccountry": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocprovince": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocphone": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocphoneext": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpocemail": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "employerlegalbusinessname": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "tradenamedba": {
+            "type": "varchar",
+            "maxLength": 110,
+            "options": [],
+            "isCustom": true
+        },
+        "employeraddress1": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "employeraddress2": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 80,
+            "isCustom": true
+        },
+        "employercity": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "employerstate": {
+            "type": "varchar",
+            "maxLength": 3,
+            "options": [],
+            "isCustom": true
+        },
+        "employerpostalcode": {
+            "type": "varchar",
+            "maxLength": 7,
+            "options": [],
+            "isCustom": true
+        },
+        "employercountry": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "employerprovince": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "employerphone": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "employerextension": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "employerfein": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "naicscode": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneylastname": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneyfirstname": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneymiddlename": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneyaddress1": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "agentattorneyaddress2": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "agentattorneycity": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneystate": {
+            "type": "varchar",
+            "maxLength": 3,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneypostalcode": {
+            "type": "varchar",
+            "maxLength": 7,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneycountry": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneyprovince": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneyphone": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneyphoneext": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "agentattorneyemailaddress": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "lawfirmnamebusinessname": {
+            "type": "varchar",
+            "maxLength": 110,
+            "options": [],
+            "isCustom": true
+        },
+        "acwiainsthighereducation": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "acwiaaffiliatednonprofit": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "acwiaresearchorg": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "cba": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "surveyname": {
+            "type": "varchar",
+            "maxLength": 110,
+            "options": [],
+            "isCustom": true
+        },
+        "datesurveypublication": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "jobtitle": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "jobduties": {
+            "type": "text",
+            "rows": 20,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "empsoccodes": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "empsoctitles": {
+            "type": "varchar",
+            "maxLength": 265,
+            "options": [],
+            "isCustom": true
+        },
+        "requirededucationmajor": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "secondeducationmajor": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "requiredtrainingmonths": {
+            "type": "enum",
+            "options": [
+                "0",
+                "6",
+                "12",
+                "18",
+                "24",
+                "36",
+                "48",
+                "60",
+                "NA"
+            ],
+            "default": "NA",
+            "style": {
+                "0": null,
+                "6": null,
+                "12": null,
+                "18": null,
+                "24": null,
+                "36": null,
+                "48": null,
+                "60": null,
+                "NA": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "requiredtrainingname": {
+            "type": "varchar",
+            "maxLength": 110,
+            "options": [],
+            "isCustom": true
+        },
+        "requiredexperiencemonths": {
+            "type": "enum",
+            "options": [
+                "0",
+                "12",
+                "18",
+                "24",
+                "36",
+                "48",
+                "60",
+                "72",
+                "84",
+                "96",
+                "108",
+                "120",
+                "NA"
+            ],
+            "default": "NA",
+            "style": {
+                "0": null,
+                "12": null,
+                "18": null,
+                "24": null,
+                "36": null,
+                "48": null,
+                "60": null,
+                "72": null,
+                "84": null,
+                "96": null,
+                "108": null,
+                "120": null,
+                "NA": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "requiredoccupation": {
+            "type": "enum",
+            "options": [
+                "In the job or a related occupation",
+                "Please See Addendum",
+                "NA"
+            ],
+            "default": "NA",
+            "style": {
+                "In the job or a related occupation": null,
+                "Please See Addendum": null,
+                "NA": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "specreqlicensecert": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "specreqforeignlang": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "specreqresfellow": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "specreqother": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "alternativerequirements": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "alteducationlevel": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "altotherdegree": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "alteducationmajor": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "alttrainingmonths": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "alttrainingname": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "altexperiencemonths": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "altlicensecert": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "altforeignlanguage": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "altresfellowship": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "altotherreq": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "suggestedsoccode": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "suggestedsoctitle": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "supervisorjobtitle": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "traveldetails": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "primaryworksiteaddress1": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "primaryworksiteaddress2": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "primaryworksitecity": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "primaryworksitestate": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "primaryworksitecounty": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "primaryworksitepostalcode": {
+            "type": "varchar",
+            "maxLength": 7,
+            "options": [],
+            "isCustom": true
+        },
+        "pwdsoccode": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "pwdsoctitle": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "onetcode": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "onettitle": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "onetcodecombo": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "onettitlecombo": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "pwdwagerate": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "addendumsoc": {
+            "type": "text",
+            "rows": 15,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "addendumjobduties": {
+            "type": "text",
+            "rows": 15,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "addendumeduc": {
+            "type": "text",
+            "rows": 15,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "dateupdat": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "createdat": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "datepwdwageexpiration": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateprevailwagedeterm": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "wagedetnotes": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "lawfirmfein": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "pwdunitofpay": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "pwdoeswagelevel": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "requiredotherdegree": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "specialskillsrequirements": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "altspecialskills": {
+            "type": "text",
+            "rows": 8,
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "otherworksitelocation": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "NA"
+            ],
+            "default": "NA",
+            "style": {
+                "Yes": null,
+                "No": null,
+                "NA": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "pwdwagesource": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "pwdsurveyname": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "altpwdwagerate": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "altpwdunitofpay": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "altpwdoeswagelevel": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "altpwdwagesource": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "altpwdsurveyname": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "blsarea": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "h2bhighestpwd": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "coveredbyacwia": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "NA"
+            ],
+            "default": "NA",
+            "style": {
+                "Yes": null,
+                "No": null,
+                "NA": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "ziptomedia": {
+            "type": "hasMany",
+            "foreign": "pwd",
+            "entity": "ZipToMedia",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

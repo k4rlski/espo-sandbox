@@ -1,0 +1,21 @@
+[
+    "statvendor",
+    "name",
+    "expensetype",
+    "status",
+    "type",
+    "categoryvendor",
+    "verification",
+    "datevv",
+    "amount",
+    "datedue",
+    "datepaid",
+    "datepay",
+    "entity",
+    "addrbilling",
+    "authmobile",
+    "frequency",
+    "recortype",
+    "statdeduct",
+    "typededuct"
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "verifycontacts"
+                },
+                {
+                    "name": "dateverified"
+                }
+            ],
+            [
+                {
+                    "name": "owner"
+                },
+                {
+                    "name": "contactname"
+                }
+            ],
+            [
+                {
+                    "name": "phone"
+                },
+                {
+                    "name": "email"
+                }
+            ],
+            [
+                {
+                    "name": "city"
+                },
+                {
+                    "name": "state"
+                }
+            ],
+            [
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "zipToMedia"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "circulation"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

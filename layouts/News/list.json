@@ -1,0 +1,57 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "circulation",
+        "label": "Circulation"
+    },
+    {
+        "name": "city",
+        "label": "City"
+    },
+    {
+        "name": "state",
+        "label": "State"
+    },
+    {
+        "name": "contactname",
+        "label": "Contact"
+    },
+    {
+        "name": "phone",
+        "label": "Phone"
+    },
+    {
+        "name": "email"
+    },
+    {
+        "name": "msa",
+        "label": "MSA"
+    },
+    {
+        "name": "owner",
+        "label": "Owner"
+    },
+    {
+        "name": "zipToMedia",
+        "label": "Zip"
+    },
+    {
+        "name": "website"
+    },
+    {
+        "name": "costperline"
+    },
+    {
+        "name": "shortname"
+    },
+    {
+        "name": "charsperline"
+    },
+    {
+        "name": "preferredvendor"
+    }
+]
