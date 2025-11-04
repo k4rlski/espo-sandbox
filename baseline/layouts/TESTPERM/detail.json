@@ -1,0 +1,1056 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "adsapproveddate"
+                },
+                {
+                    "name": "datepwddeadline"
+                }
+            ],
+            [
+                {
+                    "name": "casenumber"
+                },
+                {
+                    "name": "attycasenumber"
+                }
+            ],
+            [
+                {
+                    "name": "attyname"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "attyassistant"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "processor"
+                },
+                {
+                    "name": "entity"
+                }
+            ],
+            [
+                {
+                    "name": "beneficiaryfirst"
+                },
+                {
+                    "name": "beneficiarylast"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contactemail"
+                }
+            ],
+            [
+                {
+                    "name": "clienttype"
+                },
+                {
+                    "name": "statpermcase"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "pwdcasenum"
+                },
+                {
+                    "name": "datepwdexpire"
+                }
+            ],
+            [
+                {
+                    "name": "jobaddress"
+                },
+                {
+                    "name": "jobaddressStreet"
+                }
+            ],
+            [
+                {
+                    "name": "jobaddressCity"
+                },
+                {
+                    "name": "jobaddressState"
+                }
+            ],
+            [
+                {
+                    "name": "jobaddressPostalCode"
+                },
+                {
+                    "name": "attyfirm"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Prevailing Wage Determination Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "chkbuynews"
+                },
+                {
+                    "name": "chkbuylocal"
+                }
+            ],
+            [
+                {
+                    "name": "chkbuyradio"
+                },
+                {
+                    "name": "chkbuyewp"
+                }
+            ],
+            [
+                {
+                    "name": "chkbuyonline"
+                },
+                {
+                    "name": "chkbuyswa"
+                }
+            ],
+            [
+                {
+                    "name": "chkbuydol"
+                },
+                {
+                    "name": "chkbuysvcfee"
+                }
+            ],
+            [
+                {
+                    "name": "quotereport"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Recruitment Requested"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "statnews"
+                },
+                {
+                    "name": "statlocal"
+                }
+            ],
+            [
+                {
+                    "name": "statradio"
+                },
+                {
+                    "name": "statewp"
+                }
+            ],
+            [
+                {
+                    "name": "statonline"
+                },
+                {
+                    "name": "statswa"
+                }
+            ],
+            [
+                {
+                    "name": "statdol"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "statquote"
+                }
+            ],
+            [
+                {
+                    "name": "reporttype"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "warning",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Recruitment Ad Status"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "dstatnewstsa"
+                },
+                {
+                    "name": "dstatnewstsb"
+                }
+            ],
+            [
+                {
+                    "name": "dstatlocalts"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dstatradioscript"
+                },
+                {
+                    "name": "dstatradioinvoice"
+                }
+            ],
+            [
+                {
+                    "name": "dstatewpstart"
+                },
+                {
+                    "name": "dstatewpend"
+                }
+            ],
+            [
+                {
+                    "name": "dstatonlinestart"
+                },
+                {
+                    "name": "dstatonlineend"
+                }
+            ],
+            [
+                {
+                    "name": "dstatswastart"
+                },
+                {
+                    "name": "dstatswaend"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Evidence Document Status"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "dboxnewsts1"
+                },
+                {
+                    "name": "dboxnewsts2"
+                }
+            ],
+            [
+                {
+                    "name": "dboxlocalts"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dboxradioscript"
+                },
+                {
+                    "name": "dboxradioinvoice"
+                }
+            ],
+            [
+                {
+                    "name": "dboxewpstart"
+                },
+                {
+                    "name": "dboxewpend"
+                }
+            ],
+            [
+                {
+                    "name": "dboxonlinestart"
+                },
+                {
+                    "name": "dboxonlineend"
+                }
+            ],
+            [
+                {
+                    "name": "dboxswastart"
+                },
+                {
+                    "name": "dboxswaend"
+                }
+            ],
+            [
+                {
+                    "name": "dboxemailthreadcase"
+                },
+                {
+                    "name": "dboxemailthreadnews"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Evidence Document Dropbox Links"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "cofein"
+                },
+                {
+                    "name": "conaics"
+                }
+            ],
+            [
+                {
+                    "name": "cocontactfirst"
+                },
+                {
+                    "name": "cocontactlast"
+                }
+            ],
+            [
+                {
+                    "name": "coaddress"
+                },
+                {
+                    "name": "cocity"
+                }
+            ],
+            [
+                {
+                    "name": "costate"
+                },
+                {
+                    "name": "cozip"
+                }
+            ],
+            [
+                {
+                    "name": "cocounty"
+                },
+                {
+                    "name": "comsa"
+                }
+            ],
+            [
+                {
+                    "name": "coemailcontactstandard"
+                },
+                {
+                    "name": "cophone"
+                }
+            ],
+            [
+                {
+                    "name": "employeecount"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Company \/ Petitioner Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coemailpermadsloginurl"
+                },
+                {
+                    "name": "coemailpermads"
+                }
+            ],
+            [
+                {
+                    "name": "coemailpermadslogin"
+                },
+                {
+                    "name": "coemailpermadspass"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Email System"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "jobtitle"
+                },
+                {
+                    "name": "jobnaics"
+                }
+            ],
+            [
+                {
+                    "name": "salarymin"
+                },
+                {
+                    "name": "salarymax"
+                }
+            ],
+            [
+                {
+                    "name": "jobsalary"
+                },
+                {
+                    "name": "jobhours"
+                }
+            ],
+            [
+                {
+                    "name": "jobeducation"
+                },
+                {
+                    "name": "jobexperience"
+                }
+            ],
+            [
+                {
+                    "name": "jobsiteaddress"
+                },
+                {
+                    "name": "jobsitecity"
+                }
+            ],
+            [
+                {
+                    "name": "jobsitestate"
+                },
+                {
+                    "name": "jobsitezip"
+                }
+            ],
+            [
+                {
+                    "name": "positioncount"
+                },
+                {
+                    "name": "coswauinumber"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Job Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "dateswaregistered"
+                },
+                {
+                    "name": "dateswaupdated"
+                }
+            ],
+            [
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "coswalogin"
+                },
+                {
+                    "name": "coswapassword"
+                }
+            ],
+            [
+                {
+                    "name": "swasubacctuser"
+                },
+                {
+                    "name": "swasubacctpass"
+                }
+            ],
+            [
+                {
+                    "name": "statswaemail"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "swacomment"
+                }
+            ],
+            [
+                {
+                    "name": "swaerror"
+                }
+            ],
+            [
+                {
+                    "name": "swasmartlink"
+                }
+            ],
+            [
+                {
+                    "name": "dboxemailthreadswa"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "danger",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "SWA Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "datedolregistered"
+                },
+                {
+                    "name": "codollogin"
+                }
+            ],
+            [
+                {
+                    "name": "codolpass"
+                },
+                {
+                    "name": "codolpin"
+                }
+            ],
+            [
+                {
+                    "name": "dolbkupcodes"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "DOL Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "adtextnews"
+                },
+                {
+                    "name": "news"
+                }
+            ],
+            [
+                {
+                    "name": "adtextlocal"
+                },
+                {
+                    "name": "local"
+                }
+            ],
+            [
+                {
+                    "name": "adtextradio"
+                },
+                {
+                    "name": "radio"
+                }
+            ],
+            [
+                {
+                    "name": "adtextewp"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "urlweb"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "adtextswa"
+                },
+                {
+                    "name": "swa"
+                }
+            ],
+            [
+                {
+                    "name": "urlswa"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "adtextonline"
+                },
+                {
+                    "name": "online"
+                }
+            ],
+            [
+                {
+                    "name": "urlonline"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Ad Text"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "autoprintewp"
+                },
+                {
+                    "name": "autoprintonline"
+                }
+            ],
+            [
+                {
+                    "name": "autoprintswa"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Automated Printout File Paths"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "datenewsstart"
+                },
+                {
+                    "name": "datenewsend"
+                }
+            ],
+            [
+                {
+                    "name": "datebuynews"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "datelocalstart"
+                },
+                {
+                    "name": "datelocalend"
+                }
+            ],
+            [
+                {
+                    "name": "datebuylocal"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dateradiostart"
+                },
+                {
+                    "name": "dateradioend"
+                }
+            ],
+            [
+                {
+                    "name": "datebuyradio"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dateewpstart"
+                },
+                {
+                    "name": "dateewpend"
+                }
+            ],
+            [
+                {
+                    "name": "dateonlinestart"
+                },
+                {
+                    "name": "dateonlineend"
+                }
+            ],
+            [
+                {
+                    "name": "dateswastart"
+                },
+                {
+                    "name": "dateswaend"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "PERM Ad Run Dates"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "pricenewsquote"
+                },
+                {
+                    "name": "pricenewsreal"
+                }
+            ],
+            [
+                {
+                    "name": "adnumbernews"
+                },
+                {
+                    "name": "datepaidnews"
+                }
+            ],
+            [
+                {
+                    "name": "statclearancenews"
+                },
+                {
+                    "name": "statacctgcreditnews"
+                }
+            ],
+            [
+                {
+                    "name": "trxstring"
+                },
+                {
+                    "name": "urlgmailadconfirm"
+                }
+            ],
+            [
+                {
+                    "name": "dateinvoicednews"
+                },
+                {
+                    "name": "datepayinvoicenews"
+                }
+            ],
+            [
+                {
+                    "name": "pricelocalquote"
+                },
+                {
+                    "name": "pricelocalreal"
+                }
+            ],
+            [
+                {
+                    "name": "adnumberlocal"
+                },
+                {
+                    "name": "datepaidlocal"
+                }
+            ],
+            [
+                {
+                    "name": "priceradioquote"
+                },
+                {
+                    "name": "priceradioreal"
+                }
+            ],
+            [
+                {
+                    "name": "priceewpquote"
+                },
+                {
+                    "name": "priceewpreal"
+                }
+            ],
+            [
+                {
+                    "name": "priceonlinequote"
+                },
+                {
+                    "name": "priceonlinereal"
+                }
+            ],
+            [
+                {
+                    "name": "priceswaquote"
+                },
+                {
+                    "name": "priceswareal"
+                }
+            ],
+            [
+                {
+                    "name": "pricedolquote"
+                },
+                {
+                    "name": "pricedolreal"
+                }
+            ],
+            [
+                {
+                    "name": "pricesvcfee"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Ad Pricing Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "urlqbpaylink"
+                }
+            ],
+            [
+                {
+                    "name": "stripeinvoiceid"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "urltrxmercury"
+                }
+            ],
+            [
+                {
+                    "name": "stripepaymentlink"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Online Payments"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "casenotes"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "quoterequestnotes"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "communications"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Case Notes"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "whoareyou"
+                },
+                {
+                    "name": "yournamefirst"
+                },
+                {
+                    "name": "yournamelast"
+                }
+            ],
+            [
+                {
+                    "name": "contact"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "adtextnews2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "salary"
+                },
+                {
+                    "name": "dateinvoicedlocal"
+                }
+            ],
+            [
+                {
+                    "name": "jobadtext"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Overflow DEV Test Area (These items to be cross-checked and then deleted \/ deprecated)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "chkbuyjsbp"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dstatjsbpstart"
+                },
+                {
+                    "name": "dstatjsbpend"
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "dboxjsbpend"
+                }
+            ],
+            [
+                {
+                    "name": "datejsbpstart"
+                },
+                {
+                    "name": "datejsbpend"
+                }
+            ],
+            [
+                {
+                    "name": "adtextjsbp"
+                }
+            ],
+            [
+                {
+                    "name": "statjsbp"
+                },
+                {
+                    "name": "urljsbp"
+                }
+            ],
+            [
+                {
+                    "name": "pricejsbpquote"
+                },
+                {
+                    "name": "pricejsbpreal"
+                }
+            ],
+            [
+                {
+                    "name": "autoprintjsbp"
+                }
+            ],
+            [
+                {
+                    "name": "dboxjsbpstart"
+                },
+                {
+                    "name": "transactions"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Old JSBP Fields"
+    }
+]
