@@ -83,17 +83,6 @@
                 }
             ],
             [
-                false,
-                false
-            ],
-            [
-                false,
-                {
-                    "name": "jobaddressState"
-                }
-            ],
-            [
-                false,
                 {
                     "name": "attyfirm"
                 }
@@ -488,10 +477,6 @@
                 }
             ],
             [
-                false,
-                false
-            ],
-            [
                 {
                     "name": "coswalogin"
                 },
@@ -521,11 +506,6 @@
             [
                 {
                     "name": "swaerror"
-                }
-            ],
-            [
-                {
-                    "name": "swasmartlink"
                 }
             ],
             [
@@ -564,8 +544,7 @@
             [
                 {
                     "name": "dolbkupcodes"
-                },
-                false
+                }
             ]
         ],
         "dynamicLogicVisible": null,
@@ -610,8 +589,7 @@
             [
                 {
                     "name": "urlweb"
-                },
-                false
+                }
             ],
             [
                 {
@@ -624,8 +602,7 @@
             [
                 {
                     "name": "urlswa"
-                },
-                false
+                }
             ],
             [
                 {
@@ -638,8 +615,7 @@
             [
                 {
                     "name": "urlonline"
-                },
-                false
+                }
             ]
         ],
         "dynamicLogicVisible": null,
@@ -901,8 +877,7 @@
             [
                 {
                     "name": "casenotes"
-                },
-                false
+                }
             ],
             [
                 {
@@ -912,11 +887,6 @@
             [
                 {
                     "name": "description"
-                }
-            ],
-            [
-                {
-                    "name": "communications"
                 }
             ]
         ],
@@ -954,9 +924,6 @@
             [
                 {
                     "name": "salary"
-                },
-                {
-                    "name": "dateinvoicedlocal"
                 }
             ],
             [
@@ -971,75 +938,5 @@
         "tabBreak": false,
         "hidden": false,
         "customLabel": "Overflow DEV Test Area (These items to be cross-checked and then deleted \/ deprecated)"
-    },
-    {
-        "rows": [
-            [
-                {
-                    "name": "chkbuyjsbp"
-                },
-                false
-            ],
-            [
-                {
-                    "name": "dstatjsbpstart"
-                },
-                {
-                    "name": "dstatjsbpend"
-                }
-            ],
-            [
-                false,
-                {
-                    "name": "dboxjsbpend"
-                }
-            ],
-            [
-                {
-                    "name": "datejsbpstart"
-                },
-                {
-                    "name": "datejsbpend"
-                }
-            ],
-            [
-                {
-                    "name": "adtextjsbp"
-                }
-            ],
-            [
-                {
-                    "name": "statjsbp"
-                },
-                {
-                    "name": "urljsbp"
-                }
-            ],
-            [
-                {
-                    "name": "pricejsbpquote"
-                },
-                {
-                    "name": "pricejsbpreal"
-                }
-            ],
-            [
-                {
-                    "name": "autoprintjsbp"
-                }
-            ],
-            [
-                {
-                    "name": "dboxjsbpstart"
-                }
-            ]
-        ],
-        "dynamicLogicVisible": null,
-        "style": "default",
-        "tabBreak": false,
-        "hidden": false,
-        "noteText": null,
-        "noteStyle": "info",
-        "customLabel": "Old JSBP Fields"
     }
 ]
