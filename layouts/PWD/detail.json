@@ -16,6 +16,14 @@
                 {
                     "name": "datereceived"
                 }
+            ],
+            [
+                {
+                    "name": "dateupdat"
+                },
+                {
+                    "name": "visatype"
+                }
             ]
         ],
         "style": "default",
