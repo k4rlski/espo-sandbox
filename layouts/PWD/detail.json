@@ -24,6 +24,34 @@
                 {
                     "name": "visatype"
                 }
+            ],
+            [
+                {
+                    "name": "datecenterdirectorreview"
+                },
+                {
+                    "name": "dateredetermination"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "datedetermination"
+                },
+                {
+                    "name": "supervise_other_emp"
+                }
+            ],
+            [
+                {
+                    "name": "datewithdrawal"
+                },
+                false
             ]
         ],
         "style": "default",
