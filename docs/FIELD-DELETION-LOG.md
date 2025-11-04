@@ -10,11 +10,11 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Fields Deleted | 1 |
-| Successful Deletions | 1 |
+| Total Fields Deleted | 2 |
+| Successful Deletions | 2 |
 | Failed Deletions | 0 |
 | Rollbacks Required | 0 |
-| Golden Images Created | 3 (V1, V2, V3) |
+| Golden Images Created | 4 (V1, V2, V3, V4) |
 
 ---
 
@@ -23,6 +23,7 @@
 | # | Date | Field Name | Type | Usage | Bytes Saved | Golden Image | Git Branch | Status |
 |---|------|------------|------|-------|-------------|--------------|------------|--------|
 | 01 | 2025-11-03 | dateinvoicedlocal | date | 0% NULL | ~4/row | 2025-11-03-2311 | field-deletion-01-dateinvoicedlocal | ✅ Success |
+| 02 | 2025-11-04 | swasmartlink | varchar(80) | 0% NULL | ~84/row | 2025-11-04-0250 | field-deletion-02-swasmartlink | ✅ Success |
 
 ---
 
@@ -62,6 +63,50 @@
 - Validated 3-step workflow
 - Discovered rebuild --hard only drops columns when BOTH steps 1 & 2 complete
 - Process documented and repeatable
+
+---
+
+### #02: swasmartlink
+
+**Deletion Date:** November 4, 2025 @ 02:45  
+**Field Type:** VARCHAR(80)  
+**Data Present:** 0% (NULL in all records)  
+**Reason for Deletion:** Unused SWA smart link field
+
+**Workflow Steps:**
+1. ✅ Entity Manager deletion (bulk session)
+2. ✅ Layout Manager removal (17 fields total hidden)
+3. ✅ rebuild --hard (02:45)
+4. ✅ Manual SQL DROP COLUMN (rebuild --hard didn't auto-drop)
+
+**Verification:**
+- ✅ Field removed from entityDefs/TESTPERM.json
+- ✅ Field removed from layouts/TESTPERM/detail.json
+- ✅ Database column dropped manually via SQL
+- ✅ Records tested: 69034bfac977ae9cb
+- ✅ No errors, clean UI
+
+**Golden Image:** sandbox-golden-2025-11-04-0250.tar.gz (174 MB)  
+**Database Dump:** sandbox-db-golden-2025-11-04-0250.sql.gz (34 MB)  
+**Git Branch:** field-deletion-02-swasmartlink  
+**Git Commit:** 9d6b660
+
+**Impact:**
+- Bytes per row: ~84 bytes saved (varchar(80) + overhead)
+- Total records: ~24,000
+- Total space saved: ~2 MB
+
+**Additional Changes in This Session:**
+- 17 fields moved from detail layout to Available Fields (hidden from UI)
+- Fields in layout: 195 → 178
+- These fields remain in database but invisible to users
+
+**Notes:**
+- User deleted field via Entity Manager along with other bulk changes
+- rebuild --hard did NOT auto-drop column (unusual)
+- Required manual SQL: `ALTER TABLE t_e_s_t_p_e_r_m DROP COLUMN swasmartlink`
+- Successful despite manual intervention needed
+- System tested and working correctly
 
 ---
 
@@ -235,6 +280,7 @@ git checkout [previous-branch]
 
 **This log will be updated after each field deletion. Always check the latest entry before proceeding with a new deletion.** ✅
 
-**Last Updated:** November 3, 2025 @ 23:11  
-**Last Editor:** AI Assistant
+**Last Updated:** November 4, 2025 @ 02:52  
+**Last Editor:** AI Assistant  
+**Current Status:** 2 fields deleted, 17 fields hidden, system stable
 
