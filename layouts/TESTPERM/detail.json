@@ -83,25 +83,17 @@
                 }
             ],
             [
-                {
-                    "name": "jobaddress"
-                },
-                {
-                    "name": "jobaddressStreet"
-                }
+                false,
+                false
             ],
             [
-                {
-                    "name": "jobaddressCity"
-                },
+                false,
                 {
                     "name": "jobaddressState"
                 }
             ],
             [
-                {
-                    "name": "jobaddressPostalCode"
-                },
+                false,
                 {
                     "name": "attyfirm"
                 }
@@ -1039,9 +1031,6 @@
             [
                 {
                     "name": "dboxjsbpstart"
-                },
-                {
-                    "name": "transactions"
                 }
             ]
         ],
