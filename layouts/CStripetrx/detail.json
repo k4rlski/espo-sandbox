@@ -11,6 +11,20 @@
             ],
             [
                 {
+                    "name": "perm"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "casenumber"
+                }
+            ],
+            [
+                {
                     "name": "currency"
                 },
                 {

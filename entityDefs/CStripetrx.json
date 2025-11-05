@@ -143,6 +143,15 @@
             },
             "maxLength": 100,
             "isCustom": true
+        },
+        "casenumber": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "perm": {
+            "type": "link"
         }
     },
     "links": {
@@ -163,6 +172,13 @@
             "entity": "Team",
             "relationName": "entityTeam",
             "layoutRelationshipsDisabled": true
+        },
+        "perm": {
+            "type": "belongsTo",
+            "foreign": "stripetrx",
+            "entity": "TESTPERM",
+            "audited": false,
+            "isCustom": true
         }
     },
     "collection": {
