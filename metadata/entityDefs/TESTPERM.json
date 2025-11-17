@@ -1,0 +1,1917 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "maxLength": 150,
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters",
+            "options": []
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "chkbuynews": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "maxCount": 1,
+            "options": [
+                "Newspaper 2 Sundays"
+            ],
+            "isCustom": true
+        },
+        "chkbuylocal": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "Local Paper Ad"
+            ],
+            "isCustom": true
+        },
+        "chkbuyradio": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "Radio Ad"
+            ],
+            "isCustom": true
+        },
+        "chkbuydol": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "DOL Registration"
+            ],
+            "isCustom": true
+        },
+        "chkbuyswa": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "SWA Job Order"
+            ],
+            "isCustom": true
+        },
+        "chkbuyonline": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "Online Job Ad"
+            ],
+            "isCustom": true
+        },
+        "chkbuyewp": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "Employer Website"
+            ],
+            "isCustom": true
+        },
+        "jobadtext": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 10,
+            "isCustom": true
+        },
+        "jobtitle": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "whoareyou": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Attorney",
+                "Paralegal",
+                "Legal Assistant",
+                "Employer",
+                "Foreign Worker",
+                "Other"
+            ],
+            "style": {
+                "Attorney": null,
+                "Paralegal": null,
+                "Legal Assistant": null,
+                "Employer": null,
+                "Foreign Worker": null,
+                "Other": null
+            },
+            "allowCustomOptions": true,
+            "isCustom": true
+        },
+        "yournamefirst": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "yournamelast": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "salary": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "datepwdexpire": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true,
+            "useNumericFormat": false
+        },
+        "datepwddeadline": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "attycasenumber": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "attyassistant": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "clienttype": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "Attorney",
+                "Paralegal",
+                "Legal Assistant",
+                "Employer",
+                "Foreign Worker",
+                "Other"
+            ],
+            "style": {
+                "---": null,
+                "Attorney": null,
+                "Paralegal": null,
+                "Legal Assistant": null,
+                "Employer": null,
+                "Foreign Worker": null,
+                "Other": null
+            },
+            "isCustom": true
+        },
+        "pricenewsquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "pricenewsreal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "pricelocalquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "pricelocalreal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceradioquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceradioreal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceswaquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceswareal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "pricedolquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "pricedolreal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceewpquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceewpreal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "casenotes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 8,
+            "isCustom": true
+        },
+        "dateinvoicednews": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateinvoicedlocal": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datepaidnews": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datepaidlocal": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "statacctgcreditnews": {
+            "type": "enum",
+            "maxLength": 35,
+            "options": [
+                "NA",
+                "on credit",
+                "PaymentSent",
+                "PaymentProcessed",
+                "PaymentConfirmed",
+                "OKToPay",
+                "Invoiced",
+                "DISPUTED"
+            ],
+            "style": {
+                "NA": null,
+                "on credit": null,
+                "PaymentSent": null,
+                "PaymentProcessed": null,
+                "PaymentConfirmed": null,
+                "OKToPay": null,
+                "Invoiced": null,
+                "DISPUTED": null
+            },
+            "default": "NA",
+            "isCustom": true
+        },
+        "adnumbernews": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "adnumberlocal": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "quotereport": {
+            "type": "enum",
+            "maxLength": 20,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "default": "---",
+            "isCustom": true
+        },
+        "adsapproveddate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "urlweb": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "urlswa": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "urlonline": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "coemailpermadslogin": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "attyname": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "contactname": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "contactemail": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "statpermcase": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "Quote",
+                "Active Case",
+                "Closed"
+            ],
+            "style": {
+                "---": null,
+                "Quote": null,
+                "Active Case": null,
+                "Closed": null
+            },
+            "isCustom": true
+        },
+        "beneficiaryfirst": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "beneficiarylast": {
+            "type": "varchar",
+            "maxLength": 25,
+            "options": [],
+            "isCustom": true
+        },
+        "statnews": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Get Price",
+                "Quoted",
+                "Pending",
+                "Ready",
+                "Review Ad Doc",
+                "Fix Ad Doc",
+                "Place Ad",
+                "IO Sent",
+                "Active",
+                "Evidence",
+                "Done",
+                "Send",
+                "Dates",
+                "Schedule",
+                "HOLD",
+                "Verify"
+            ],
+            "style": {
+                "-": null,
+                "Get Price": null,
+                "Quoted": null,
+                "Pending": null,
+                "Ready": null,
+                "Review Ad Doc": null,
+                "Fix Ad Doc": null,
+                "Place Ad": null,
+                "IO Sent": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "Send": null,
+                "Dates": null,
+                "Schedule": null,
+                "HOLD": null,
+                "Verify": null
+            },
+            "isCustom": true
+        },
+        "statlocal": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Get Price",
+                "Quoted",
+                "Pending",
+                "Ready",
+                "Review Ad Doc",
+                "Fix Ad Doc",
+                "Place Ad",
+                "IO Sent",
+                "Active",
+                "Evidence",
+                "Done",
+                "Send",
+                "Dates",
+                "Schedule",
+                "HOLD",
+                "Verify"
+            ],
+            "style": {
+                "-": null,
+                "Get Price": null,
+                "Quoted": null,
+                "Pending": null,
+                "Ready": null,
+                "Review Ad Doc": null,
+                "Fix Ad Doc": null,
+                "Place Ad": null,
+                "IO Sent": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "Send": null,
+                "Dates": null,
+                "Schedule": null,
+                "HOLD": null,
+                "Verify": null
+            },
+            "isCustom": true
+        },
+        "statradio": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Get Station",
+                "Get Price",
+                "Quoted",
+                "Pending",
+                "Review Ad Doc",
+                "Fix Ad Doc",
+                "Place Ad",
+                "IO Sent",
+                "Active",
+                "Evidence",
+                "Done",
+                "Send ASAP",
+                "Send",
+                "Dates",
+                "Schedule",
+                "HOLD"
+            ],
+            "style": {
+                "-": null,
+                "Get Station": null,
+                "Get Price": null,
+                "Quoted": null,
+                "Pending": null,
+                "Review Ad Doc": null,
+                "Fix Ad Doc": null,
+                "Place Ad": null,
+                "IO Sent": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "Send ASAP": null,
+                "Send": null,
+                "Dates": null,
+                "Schedule": null,
+                "HOLD": null
+            },
+            "isCustom": true
+        },
+        "statswa": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Quoted",
+                "Pending",
+                "Schedule",
+                "Info Request",
+                "Info_Updated",
+                "Registered",
+                "SWA Locked",
+                "Contact_SWA",
+                "Checking",
+                "Reply_SWA",
+                "HOLD",
+                "Active",
+                "Evidence",
+                "Done",
+                "---placeholder---",
+                "Info: Info Request",
+                "Info: Explain Creds Request",
+                "Info: Biz Info Provided",
+                "Info: Remind Client",
+                "Info: Re-Remind Client",
+                "Register: Create Account",
+                "Register: Await SWA",
+                "Register: SWA No Response",
+                "Register: Existing Account",
+                "Register: Request Exist Creds",
+                "Register: Remind Client (Creds)",
+                "Register: Inquire SWA",
+                "Verify: Employer Contact SWA",
+                "Verify: Employer Contact SWA - Remind",
+                "Verify: SWA Info Request",
+                "Verify: SWA No Response",
+                "Verify: Remind SWA",
+                "Verify: Re-Remind Client: Creds",
+                "Verify: SWA Info Provided",
+                "Verify: Await SWA Reply",
+                "Verify: Escalate SWA",
+                "Verify: Attorney Escalate SWA",
+                "Verify: Remind Escalate SWA",
+                "Verify: Remind SWA Info Provided",
+                "Account Enabled",
+                "Posted: SWA JO Review - Await SWA Rep",
+                "Posted: SWA JO Review - Emp. Remind",
+                "Posted: SWA JO Review - Atty Remind",
+                "Posted: Pending Employer Verification",
+                "Posted: Employer Verification - Emp. Inquire",
+                "Posted: Employer Verification - Atty Escalate",
+                "Posted: SWA JO Review - Unresponsive"
+            ],
+            "style": {
+                "-": null,
+                "Quoted": null,
+                "Pending": null,
+                "Schedule": null,
+                "Info Request": null,
+                "Info_Updated": null,
+                "Registered": null,
+                "SWA Locked": null,
+                "Contact_SWA": null,
+                "Checking": null,
+                "Reply_SWA": null,
+                "HOLD": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "---placeholder---": null,
+                "Info: Info Request": null,
+                "Info: Explain Creds Request": null,
+                "Info: Biz Info Provided": null,
+                "Info: Remind Client": null,
+                "Info: Re-Remind Client": null,
+                "Register: Create Account": null,
+                "Register: Await SWA": null,
+                "Register: SWA No Response": null,
+                "Register: Existing Account": null,
+                "Register: Request Exist Creds": null,
+                "Register: Remind Client (Creds)": null,
+                "Register: Inquire SWA": null,
+                "Verify: Employer Contact SWA": null,
+                "Verify: Employer Contact SWA - Remind": null,
+                "Verify: SWA Info Request": null,
+                "Verify: SWA No Response": null,
+                "Verify: Remind SWA": null,
+                "Verify: Re-Remind Client: Creds": null,
+                "Verify: SWA Info Provided": null,
+                "Verify: Await SWA Reply": null,
+                "Verify: Escalate SWA": null,
+                "Verify: Attorney Escalate SWA": null,
+                "Verify: Remind Escalate SWA": null,
+                "Verify: Remind SWA Info Provided": null,
+                "Account Enabled": null,
+                "Posted: SWA JO Review - Await SWA Rep": null,
+                "Posted: SWA JO Review - Emp. Remind": null,
+                "Posted: SWA JO Review - Atty Remind": null,
+                "Posted: Pending Employer Verification": null,
+                "Posted: Employer Verification - Emp. Inquire": null,
+                "Posted: Employer Verification - Atty Escalate": null,
+                "Posted: SWA JO Review - Unresponsive": null
+            },
+            "isCustom": true,
+            "default": []
+        },
+        "statewp": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Quoted",
+                "Pending",
+                "Active",
+                "Evidence",
+                "Done",
+                "Send",
+                "Dates",
+                "Checking",
+                "Buy",
+                "Provision",
+                "Deploy",
+                "Post-Job",
+                "Refresh",
+                "Update",
+                "Destroy",
+                "Auto-Print",
+                "Dbox-Folder",
+                "Create",
+                "Launch",
+                "Delete"
+            ],
+            "style": {
+                "-": null,
+                "Quoted": null,
+                "Pending": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "Send": null,
+                "Dates": null,
+                "Checking": null,
+                "Buy": null,
+                "Provision": null,
+                "Deploy": null,
+                "Post-Job": null,
+                "Refresh": null,
+                "Update": null,
+                "Destroy": null,
+                "Auto-Print": null,
+                "Dbox-Folder": null,
+                "Create": null,
+                "Launch": null,
+                "Delete": null
+            },
+            "isCustom": true,
+            "default": []
+        },
+        "statonline": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Quoted",
+                "Pending",
+                "Active",
+                "Evidence",
+                "Done",
+                "Send",
+                "Dates",
+                "Checking",
+                "Schedule",
+                "HOLD",
+                "NA"
+            ],
+            "style": {
+                "-": null,
+                "Quoted": null,
+                "Pending": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "Send": null,
+                "Dates": null,
+                "Checking": null,
+                "Schedule": null,
+                "HOLD": null,
+                "NA": null
+            },
+            "isCustom": true,
+            "default": [
+                "NA"
+            ]
+        },
+        "statdol": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Quoted",
+                "Get Missing Info",
+                "Get FEIN",
+                "Get Year Co Started",
+                "Get NAICS Code",
+                "ON HOLD",
+                "Register",
+                "Reg'd",
+                "Business Existence",
+                "ReReg'd",
+                "Attorney Write DOL",
+                "Email DOL",
+                "PIN Recd",
+                "Done",
+                "Pending",
+                "Send",
+                "Info Request",
+                "BE-RFI Sent"
+            ],
+            "style": {
+                "-": null,
+                "Quoted": null,
+                "Get Missing Info": null,
+                "Get FEIN": null,
+                "Get Year Co Started": null,
+                "Get NAICS Code": null,
+                "ON HOLD": null,
+                "Register": null,
+                "Reg'd": null,
+                "Business Existence": null,
+                "ReReg'd": null,
+                "Attorney Write DOL": null,
+                "Email DOL": null,
+                "PIN Recd": null,
+                "Done": null,
+                "Pending": null,
+                "Send": null,
+                "Info Request": null,
+                "BE-RFI Sent": null
+            },
+            "isCustom": true
+        },
+        "statquote": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "New",
+                "Abbreviate",
+                "Assign Media",
+                "Auto Price",
+                "Pricing",
+                "Info Request",
+                "Generate QB",
+                "Generate STRIPE",
+                "STRIPE Ready",
+                "STRIPE Send",
+                "Quote Sent",
+                "Converted",
+                "Declined",
+                "Not Sent",
+                "Expired",
+                "QB Ready",
+                "QB Send"
+            ],
+            "style": {
+                "---": null,
+                "New": null,
+                "Abbreviate": null,
+                "Assign Media": null,
+                "Auto Price": null,
+                "Pricing": null,
+                "Info Request": null,
+                "Generate QB": null,
+                "Generate STRIPE": null,
+                "STRIPE Ready": null,
+                "STRIPE Send": null,
+                "Quote Sent": null,
+                "Converted": null,
+                "Declined": null,
+                "Not Sent": null,
+                "Expired": null,
+                "QB Ready": null,
+                "QB Send": null
+            },
+            "isCustom": true,
+            "default": []
+        },
+        "reporttype": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "All Active",
+                "All Quotes",
+                "Audra Behne",
+                "Bennett",
+                "Columbia University",
+                "Manulkin",
+                "Michael Guevara",
+                "Michelle Wu",
+                "Pozo-Goldstein",
+                "Ryan-Yu",
+                "Standard",
+                "Sungjin Ji",
+                "CunananLaw",
+                "MichaelYe",
+                "DanielEstrin",
+                "DemoClient",
+                "CarlosBermudez",
+                "AlexandriaSheffield",
+                "VugarJafarov",
+                "AlessandraPiras",
+                "FredStrasser",
+                "SusanHenner",
+                "BibianaAcero",
+                "Quick Quote"
+            ],
+            "style": {
+                "---": null,
+                "All Active": null,
+                "All Quotes": null,
+                "Audra Behne": null,
+                "Bennett": null,
+                "Columbia University": null,
+                "Manulkin": null,
+                "Michael Guevara": null,
+                "Michelle Wu": null,
+                "Pozo-Goldstein": null,
+                "Ryan-Yu": null,
+                "Standard": null,
+                "Sungjin Ji": null,
+                "CunananLaw": null,
+                "MichaelYe": null,
+                "DanielEstrin": null,
+                "DemoClient": null,
+                "CarlosBermudez": null,
+                "AlexandriaSheffield": null,
+                "VugarJafarov": null,
+                "AlessandraPiras": null,
+                "FredStrasser": null,
+                "SusanHenner": null,
+                "BibianaAcero": null,
+                "Quick Quote": null
+            },
+            "isCustom": true
+        },
+        "dstatnewstsa": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatnewstsb": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatlocalts": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatradioscript": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatradioinvoice": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatswastart": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatswaend": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatewpstart": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatewpend": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatonlinestart": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatonlineend": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dboxnewsts1": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxnewsts2": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxlocalts": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxradioscript": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxradioinvoice": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxswastart": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxswaend": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxewpstart": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxewpend": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxonlinestart": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxonlineend": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxemailthreadcase": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxemailthreadnews": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxemailthreadswa": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "cocontactfirst": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "cocontactlast": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "coaddress": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "cocity": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "costate": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "cozip": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "cocounty": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "comsa": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "cophone": {
+            "type": "varchar",
+            "maxLength": 24,
+            "options": [],
+            "isCustom": true
+        },
+        "coemailcontactstandard": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "coemailpermads": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "coemailpermadspass": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "coswauinumber": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "coswalogin": {
+            "type": "varchar",
+            "maxLength": 60,
+            "options": [],
+            "isCustom": true
+        },
+        "coswapassword": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "dateswaupdated": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateswaregistered": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "swacomment": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "cofein": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "conaics": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "coyearbusinessformed": {
+            "type": "varchar",
+            "maxLength": 20,
+            "options": [],
+            "isCustom": true
+        },
+        "codollogin": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "codolpass": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "codolpin": {
+            "type": "varchar",
+            "maxLength": 30,
+            "options": [],
+            "isCustom": true
+        },
+        "datedolregistered": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "jobnaics": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "jobsalary": {
+            "type": "varchar",
+            "maxLength": 16,
+            "options": [],
+            "isCustom": true
+        },
+        "jobhours": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "jobsiteaddress": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "jobsitecity": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "jobsitestate": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "jobsitezip": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "jobexperience": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "jobeducation": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "adtextnews": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": null,
+            "rows": 10,
+            "isCustom": true,
+            "seeMoreDisabled": false
+        },
+        "adtextlocal": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 10,
+            "isCustom": true
+        },
+        "adtextradio": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 10,
+            "isCustom": true
+        },
+        "adtextswa": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 10,
+            "isCustom": true
+        },
+        "adtextewp": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 10,
+            "isCustom": true
+        },
+        "adtextonline": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "rows": 10,
+            "isCustom": true
+        },
+        "autoprintswa": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "autoprintewp": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "autoprintonline": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "datenewsstart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datenewsend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datelocalstart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datelocalend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateradiostart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateradioend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateswastart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateswaend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateewpstart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateewpend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateonlinestart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateonlineend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "casenumber": {
+            "type": "varchar",
+            "maxLength": 10,
+            "options": [],
+            "isCustom": true
+        },
+        "date": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "priceonlinequote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "priceonlinereal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "processor": {
+            "type": "enum",
+            "maxLength": 15,
+            "options": [
+                "NA",
+                "ACH",
+                "CBR",
+                "OTH",
+                "QB",
+                "ST"
+            ],
+            "style": {
+                "NA": null,
+                "ACH": null,
+                "CBR": null,
+                "OTH": null,
+                "QB": null,
+                "ST": null
+            },
+            "default": "NA",
+            "isCustom": true
+        },
+        "entity": {
+            "type": "enum",
+            "maxLength": 15,
+            "options": [
+                "PA",
+                "NA",
+                "JKT"
+            ],
+            "style": {
+                "PA": null,
+                "NA": null,
+                "JKT": null
+            },
+            "default": "PA",
+            "isCustom": true
+        },
+        "pricejsbpquote": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "pricejsbpreal": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "local": {
+            "type": "link"
+        },
+        "online": {
+            "type": "link"
+        },
+        "radio": {
+            "type": "link"
+        },
+        "swa": {
+            "type": "link"
+        },
+        "news": {
+            "type": "link"
+        },
+        "account": {
+            "type": "link"
+        },
+        "domainname": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "salaryrange": {
+            "type": "varchar",
+            "maxLength": 24,
+            "options": [],
+            "tooltip": true,
+            "isCustom": true
+        },
+        "dboxjsbpstart": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "dboxjsbpend": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "chkbuyjsbp": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "Job Search Board"
+            ],
+            "isCustom": true
+        },
+        "datejsbpstart": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datejsbpend": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dstatjsbpstart": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "dstatjsbpend": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "---",
+                "yes",
+                "no"
+            ],
+            "style": {
+                "---": null,
+                "yes": null,
+                "no": null
+            },
+            "isCustom": true
+        },
+        "autoprintjsbp": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "urljsbp": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "actionnotes": {
+            "type": "varchar",
+            "maxLength": 40,
+            "options": [],
+            "isCustom": true
+        },
+        "dateonlineexpire": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datebuynews": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datebuylocal": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datebuyradio": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datepay": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "datedue": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "statclearancenews": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "NA",
+                "Confirmed",
+                "Receipted",
+                "Charged",
+                "Request Receipt",
+                "Done",
+                "Investigate",
+                "Dispute",
+                "Accounting"
+            ],
+            "style": {
+                "NA": null,
+                "Confirmed": null,
+                "Receipted": null,
+                "Charged": null,
+                "Request Receipt": null,
+                "Done": null,
+                "Investigate": null,
+                "Dispute": null,
+                "Accounting": null
+            },
+            "isCustom": true,
+            "default": []
+        },
+        "datepayinvoicenews": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "chkbuysvcfee": {
+            "type": "checklist",
+            "storeArrayValues": true,
+            "options": [
+                "Service Fee"
+            ],
+            "isCustom": true
+        },
+        "pricesvcfee": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "statjsbp": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "-",
+                "Quoted",
+                "Pending",
+                "Active",
+                "Evidence",
+                "Done",
+                "Send",
+                "Dates",
+                "Checking"
+            ],
+            "default": [
+                "-"
+            ],
+            "style": {
+                "-": null,
+                "Quoted": null,
+                "Pending": null,
+                "Active": null,
+                "Evidence": null,
+                "Done": null,
+                "Send": null,
+                "Dates": null,
+                "Checking": null
+            },
+            "isCustom": true
+        },
+        "swasubacctuser": {
+            "type": "varchar",
+            "maxLength": 45,
+            "options": [],
+            "isCustom": true
+        },
+        "swasubacctpass": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "pwdcasenum": {
+            "type": "varchar",
+            "maxLength": 24,
+            "options": [],
+            "isCustom": true
+        },
+        "employeecount": {
+            "type": "int",
+            "isCustom": true
+        },
+        "salarymin": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "salarymax": {
+            "type": "currency",
+            "isCustom": true
+        },
+        "dolbkupcodes": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "positioncount": {
+            "type": "int",
+            "isCustom": true
+        },
+        "urltrxmercury": {
+            "type": "text",
+            "isCustom": true
+        },
+        "urlgmailadconfirm": {
+            "type": "text",
+            "isCustom": true
+        },
+        "urlqbpaylink": {
+            "type": "text",
+            "isCustom": true
+        },
+        "trx": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        },
+        "trxstring": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "stripeinvoiceid": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "stripepaymentlink": {
+            "type": "text",
+            "options": [],
+            "isCustom": true
+        },
+        "statswaemail": {
+            "type": "text",
+            "options": [
+                "Not Drafted",
+                "Draft Email",
+                "Email Drafted",
+                "Schedule",
+                "Send",
+                "Sent",
+                "Standby",
+                "NA"
+            ],
+            "style": {
+                "Not Drafted": null,
+                "Draft Email": null,
+                "Email Drafted": null,
+                "Schedule": null,
+                "Send": null,
+                "Sent": null,
+                "Standby": null,
+                "NA": null
+            },
+            "default": "NA",
+            "isCustom": true
+        },
+        "parentid": {
+            "type": "text",
+            "isCustom": true
+        },
+        "attyfirm": {
+            "type": "text",
+            "isCustom": true
+        },
+        "coemailpermadsloginurl": {
+            "type": "text",
+            "isCustom": true
+        },
+        "jobaddress_country": {
+            "type": "text",
+            "isCustom": true
+        },
+        "jobaddress_street": {
+            "type": "text",
+            "isCustom": true
+        },
+        "jobaddress_city": {
+            "type": "text",
+            "isCustom": true
+        },
+        "jobaddress_state": {
+            "type": "text",
+            "isCustom": true
+        },
+        "jobaddress_postal_code": {
+            "type": "text",
+            "isCustom": true
+        },
+        "pwd": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "local": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "Local",
+            "audited": false,
+            "isCustom": true
+        },
+        "online": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "Online",
+            "audited": false,
+            "isCustom": true
+        },
+        "radio": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "Radio",
+            "audited": false,
+            "isCustom": true
+        },
+        "swa": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "SWA",
+            "audited": false,
+            "isCustom": true
+        },
+        "news": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "News",
+            "audited": false,
+            "isCustom": true
+        },
+        "account": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "Account",
+            "audited": false,
+            "isCustom": true
+        },
+        "trx": {
+            "type": "hasMany",
+            "foreign": "perm",
+            "entity": "CTransactions",
+            "audited": false,
+            "isCustom": true
+        },
+        "pwd": {
+            "type": "belongsTo",
+            "foreign": "perm",
+            "entity": "PWD",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "jobtitle",
+            "adnumbernews"
+        ],
+        "fullTextSearch": true,
+        "countDisabled": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    },
+    "optimisticConcurrencyControl": false
+}
